@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 
+// ここを enum の 'LIGHT' | 'DARK' だけにしてcomponent側でstyle class指定でもあり
 const colorTheme = {
   light: {
     textColor: "#black",
